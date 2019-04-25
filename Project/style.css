@@ -1,0 +1,98 @@
+
+/* PAGE HEADER */
+
+header {
+    background: #424249;
+    color: #fffdfc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* HEADER LEFT */
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+    margin: 2vh 2vw;
+}
+
+.headerLeft h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 3em;
+    text-transform: capitalize;
+    margin-left: 1.5vw;
+}
+
+/* HEADER RIGHT */
+
+.headerRight {
+    display: flex;
+    align-items: center;
+    margin: 2vh 2vw;
+}
+
+.headerRight h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-left: 1.5vw;
+}
+
+/* MAIN SECTION */
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    background: #838383;
+}
+
+.main {
+    min-height: 20vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* MONTHLY EXPENSES */
+
+.mLeft {
+    background: #EFE8E1;
+}
+
+.monthlyExpenses {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.monthlyExpenses h3 {
+    font-family: 'Righteous', cursive;
+    text-transform: capitalize;
+    font-size: 2.5em;
+}
+
+/* ADD BILL */
+
+.mRight {
+    background: #54D2E5;
+}
+
+.addBill {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.addBill h3 {
+    font-family: 'Righteous', cursive;
+    text-transform: capitalize;
+    font-size: 2.5em;
+}
